@@ -13,7 +13,7 @@ A complete, tested build record for running **macOS Sequoia 15.7** on an **Intel
 | Temperatures | No external fans: idle 47 °C, full load ≤ 84 °C · With 2 external 120 mm fans: idle 39 °C, full load ≤ 78 °C |
 | Last updated | 2026-09-25 |
 
-<p align="center"><img src="photos/nuc-front-fans.jpg" width="420" alt="NUC7i7BNH with two external 120 mm fans"></p>
+<p align="center"><img src="photos/nuc-front.jpg" width="420" alt="NUC7i7BNH front"></p>
 
 ## Contents
 - [Specs](#specs)
@@ -46,15 +46,14 @@ A complete, tested build record for running **macOS Sequoia 15.7** on an **Intel
 | Thunderbolt | Thunderbolt 3 / USB-C (JHL6340) |
 | Ports | 4 × USB 3.0, 1 × USB-C/TB3, HDMI 2.0a, microSD reader |
 | Cooling | Stock blower; thermal paste replaced |
-| External cooling (optional) | 2 × 120 mm fans (label: *LIANLI 棱镜 7PRO*, 12 V DC, 0.25 A, 3 W, 4-pin), mounted on the open top and bottom with cable ties and brackets, powered from a 12 V SATA port at 100%. Bottom blows in, top blows out (see [BENCHMARK.md](BENCHMARK.md)) |
 | Display | Runs headless with an **HDMI dummy plug** (for Screen Sharing) |
 | Installer / rescue USB | ADATA 32 GB USB 3.2 flash drive (Sequoia 15.8 installer + OpenCore) |
 
 ## Photos
-| Front, with external fans | Inside (bottom plate off) | External fan |
-|---|---|---|
-| <img src="photos/nuc-front-fans.jpg" width="260" alt="Front view"> | <img src="photos/nuc-inside.jpg" width="340" alt="Inside: NVMe SSD, 2 × 4 GB DDR4, 2.5-inch SATA connector"> | <img src="photos/fan-label.jpg" width="260" alt="120 mm fan label, 12 V 0.25 A"> |
-| Stock NUC7i7BNH with a 120 mm fan clamped on the top and bottom. The front USB, audio and power button stay accessible | Toshiba XG6 1 TB NVMe (left), 2 × 4 GB DDR4 SO-DIMM (right), and the free SATA connector for a 2.5" drive (centre). Board label blurred | 12 V DC, 0.25 A, 3 W, 4-pin; powered from 12 V SATA |
+| Front | Inside (bottom plate off) |
+|---|---|
+| <img src="photos/nuc-front.jpg" width="260" alt="Front view"> | <img src="photos/nuc-inside.jpg" width="340" alt="Inside: NVMe SSD, 2 × 4 GB DDR4, 2.5-inch SATA connector"> |
+| NUC7i7BNH front panel | Toshiba XG6 1 TB NVMe (left), 2 × 4 GB DDR4 SO-DIMM (right), and the free SATA connector for a 2.5" drive (centre). Board label blurred |
 
 ## EFI
 

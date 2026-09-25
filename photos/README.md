@@ -1,9 +1,9 @@
 # Photos
 
-Photos of the build go here, for example:
+| File | Shows |
+|---|---|
+| `nuc-front-fans.jpg` | Front of the NUC with the 2 external 120 mm fans |
+| `nuc-inside.jpg` | Inside: NVMe SSD, RAM, SATA connector (the board's MAC/serial label is blurred) |
+| `fan-label.jpg` | The fan's rating label |
 
-- `nuc-front.jpg`: the NUC
-- `nuc-open-fans.jpg`: open chassis with the 2 × 120 mm external fans
-- `nuc-setup.jpg`: where it sits
-
-Then uncomment the image lines near the top of the main README.
+All photos are resized to 1600 px, with EXIF metadata (including location) removed.

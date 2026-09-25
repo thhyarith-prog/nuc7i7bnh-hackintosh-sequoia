@@ -13,10 +13,7 @@ A complete, tested build record for running **macOS Sequoia 15.7** on an **Intel
 | Temperatures | No external fans: idle 47 °C, full load ≤ 84 °C · With 2 external 120 mm fans: idle 39 °C, full load ≤ 78 °C |
 | Last updated | 2026-09-25 |
 
-<!-- Photos: put images in photos/ and uncomment, for example:
-![NUC7i7BNH front](photos/nuc-front.jpg)
-![Inside with external fans](photos/nuc-fans.jpg)
--->
+<p align="center"><img src="photos/nuc-front-fans.jpg" width="420" alt="NUC7i7BNH with two external 120 mm fans"></p>
 
 ## Contents
 - [Specs](#specs)
@@ -41,18 +38,23 @@ A complete, tested build record for running **macOS Sequoia 15.7** on an **Intel
 | Model | Intel NUC7i7BNH (NUC7i7BNB board, "Baby Canyon"), BIOS 0093 or later |
 | CPU | Intel Core i7-7567U (Kaby Lake), 2 cores / 4 threads, 3.5 GHz base / 4.0 GHz turbo, 4 MB cache, 28 W TDP |
 | GPU | Intel Iris Plus Graphics 650 (0x5927), 64 MB eDRAM, 1.5 GB shared, **Metal 3** |
-| RAM | 8 GB (2 × 4 GB DDR4-2133 SO-DIMM); up to 32 GB supported |
+| RAM | 8 GB: 1 × SK hynix 4 GB + 1 × Ramaxel 4 GB, DDR4 SO-DIMM PC4-2666 (1Rx16), running at 2133 MHz (the CPU's limit). Up to 32 GB supported |
 | Storage | Toshiba XG6 1 TB NVMe M.2 (KXG6AZNV1T02); 2.5" SATA bay free |
 | Ethernet | Intel I219-V, 1 Gbps |
 | Wi-Fi / Bluetooth | Intel Wireless-AC 8265 (Wi-Fi 5, BT 4.2) |
 | Audio | Realtek ALC283, plus HDMI audio |
 | Thunderbolt | Thunderbolt 3 / USB-C (JHL6340) |
 | Ports | 4 × USB 3.0, 1 × USB-C/TB3, HDMI 2.0a, microSD reader |
-| Cooling | Stock blower; thermal paste replaced. Optional: 2 × 120 mm 12 V fans on the open chassis (see [BENCHMARK.md](BENCHMARK.md)) |
+| Cooling | Stock blower; thermal paste replaced |
+| External cooling (optional) | 2 × 120 mm fans (label: *LIANLI 棱镜 7PRO*, 12 V DC, 0.25 A, 3 W, 4-pin), mounted on the open top and bottom with cable ties and brackets, powered from a 12 V SATA port at 100%. Bottom blows in, top blows out (see [BENCHMARK.md](BENCHMARK.md)) |
 | Display | Runs headless with an **HDMI dummy plug** (for Screen Sharing) |
+| Installer / rescue USB | ADATA 32 GB USB 3.2 flash drive (Sequoia 15.8 installer + OpenCore) |
 
 ## Photos
-Photos of the build are in [`photos/`](photos/). *(Coming soon.)*
+| Front, with external fans | Inside (bottom plate off) | External fan |
+|---|---|---|
+| <img src="photos/nuc-front-fans.jpg" width="260" alt="Front view"> | <img src="photos/nuc-inside.jpg" width="340" alt="Inside: NVMe SSD, 2 × 4 GB DDR4, 2.5-inch SATA connector"> | <img src="photos/fan-label.jpg" width="260" alt="120 mm fan label, 12 V 0.25 A"> |
+| Stock NUC7i7BNH with a 120 mm fan clamped on the top and bottom. The front USB, audio and power button stay accessible | Toshiba XG6 1 TB NVMe (left), 2 × 4 GB DDR4 SO-DIMM (right), and the free SATA connector for a 2.5" drive (centre). Board label blurred | 12 V DC, 0.25 A, 3 W, 4-pin; powered from 12 V SATA |
 
 ## EFI
 

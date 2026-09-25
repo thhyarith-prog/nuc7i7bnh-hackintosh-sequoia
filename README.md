@@ -47,7 +47,6 @@ A complete, tested build record for running **macOS Sequoia 15.7** on an **Intel
 | Ports | 4 × USB 3.0, 1 × USB-C/TB3, HDMI 2.0a, microSD reader |
 | Cooling | Stock blower; thermal paste replaced |
 | External fans | 2 × 120 mm, 12 V |
-| Display | Runs headless with an **HDMI dummy plug** (for Screen Sharing) |
 | Installer / rescue USB | ADATA 32 GB USB 3.2 flash drive (Sequoia 15.8 installer + OpenCore) |
 
 ## Photos

@@ -1,0 +1,9 @@
+CLAUDE.md
+SESSION-NOTES.md
+PRIVATE-NOTES.md
+.DS_Store
+*.o
+tools/smctemp
+tools/cpuburn
+tools/memburn
+tools/gpuburn
